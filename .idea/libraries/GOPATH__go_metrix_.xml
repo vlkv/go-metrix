@@ -2,7 +2,6 @@
   <library name="GOPATH &lt;go-metrix&gt;">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
-      <root url="file://$PROJECT_DIR$/../../../scanner" />
       <root url="file://$PROJECT_DIR$/../.." />
       <root url="file://$PROJECT_DIR$/../../../pine_repo" />
       <root url="file://$PROJECT_DIR$/../../../pine_facade" />
@@ -37,7 +36,6 @@
       <root url="file://$PROJECT_DIR$/../../kunteynir/tradingview/.git" />
       <root url="file://$PROJECT_DIR$/../../julienschmidt/httprouter/.git" />
       <root url="file://$PROJECT_DIR$/../../../pine_repo/.git" />
-      <root url="file://$PROJECT_DIR$/../../../scanner/.idea" />
     </excluded>
   </library>
 </component>
