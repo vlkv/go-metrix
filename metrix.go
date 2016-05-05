@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"time"
-	"github.com/vlkv/go-metrix/common"
+	"github.com/vlkv/go-util"
 )
 
 type Metrix interface {
@@ -29,7 +29,7 @@ func SetMetrixValue(name string, value int64){
 var MetrixInstance Metrix
 
 type metrixImpl struct {
-	common.ActiveObject
+	util.ActiveObject
 
 	file   string
 	values map[string]int64
