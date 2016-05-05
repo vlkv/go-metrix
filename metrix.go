@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"fmt"
 	"io/ioutil"
-	"scanner/common"
 	"time"
+	"github.com/vlkv/go-metrix/common"
 )
 
 type Metrix interface {

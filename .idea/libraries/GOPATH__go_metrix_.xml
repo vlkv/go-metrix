@@ -20,10 +20,8 @@
       <root url="file://$PROJECT_DIR$/../../../pine_facade/.git" />
       <root url="file://$PROJECT_DIR$/../../../gopkg.in/gorp.v1/.git" />
       <root url="file://$PROJECT_DIR$/../ya-go-config/.git" />
-      <root url="file://$PROJECT_DIR$/../../../scanner/.idea" />
       <root url="file://$PROJECT_DIR$/../../spf13/cast/.git" />
       <root url="file://$PROJECT_DIR$/../go-metrics-file-dumper/.git" />
-      <root url="file://$PROJECT_DIR$/../../../scanner/.git" />
       <root url="file://$PROJECT_DIR$/../../spf13/jwalterweatherman/.git" />
       <root url="file://$PROJECT_DIR$/../../stretchr/testify/.git" />
       <root url="file://$PROJECT_DIR$/../../lib/pq/.git" />
@@ -39,6 +37,7 @@
       <root url="file://$PROJECT_DIR$/../../kunteynir/tradingview/.git" />
       <root url="file://$PROJECT_DIR$/../../julienschmidt/httprouter/.git" />
       <root url="file://$PROJECT_DIR$/../../../pine_repo/.git" />
+      <root url="file://$PROJECT_DIR$/../../../scanner/.idea" />
     </excluded>
   </library>
 </component>
