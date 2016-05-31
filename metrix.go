@@ -43,7 +43,7 @@ type metrixImpl struct {
 	prevValues map[string]int64
 	calcFuns   map[string]func(map[string]int64, map[string]int64)int64
 }
-var _ Metrix = metrixImpl{}
+var _ Metrix = (*metrixImpl)(nil)
 
 func CreateMetrix(file string, flushInterval time.Duration) Metrix {
 	this := new(metrixImpl)
