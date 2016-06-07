@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"time"
-	"github.com/vlkv/go-util"
+	"xgit.tradingview.com/go-lib/go-util"
 )
 
 type Metrix interface {
