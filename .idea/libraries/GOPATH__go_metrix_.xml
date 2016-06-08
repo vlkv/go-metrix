@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
       <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../github.com" />
       <root url="file://$PROJECT_DIR$/../../../pine_repo" />
       <root url="file://$PROJECT_DIR$/../../../pine_facade" />
     </CLASSES>
@@ -10,32 +11,33 @@
     <SOURCES />
     <excluded>
       <root url="file://$PROJECT_DIR$/../../../pine_repo/.idea" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/vlkv/go-util/.idea" />
       <root url="file://$PROJECT_DIR$/../../../pine_facade/.idea" />
-      <root url="file://$PROJECT_DIR$/../../pquerna/ffjson/.git" />
-      <root url="file://$PROJECT_DIR$/.git" />
-      <root url="file://$PROJECT_DIR$/../go-metrics/.git" />
-      <root url="file://$PROJECT_DIR$" />
-      <root url="file://$PROJECT_DIR$/.idea" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/pquerna/ffjson/.git" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/vlkv/go-util/.git" />
       <root url="file://$PROJECT_DIR$/../../../pine_facade/.git" />
       <root url="file://$PROJECT_DIR$/../../../gopkg.in/gorp.v1/.git" />
-      <root url="file://$PROJECT_DIR$/../ya-go-config/.git" />
-      <root url="file://$PROJECT_DIR$/../../spf13/cast/.git" />
-      <root url="file://$PROJECT_DIR$/../go-metrics-file-dumper/.git" />
-      <root url="file://$PROJECT_DIR$/../../spf13/jwalterweatherman/.git" />
-      <root url="file://$PROJECT_DIR$/../../stretchr/testify/.git" />
-      <root url="file://$PROJECT_DIR$/../../lib/pq/.git" />
-      <root url="file://$PROJECT_DIR$/../../hoisie/mustache/.git" />
-      <root url="file://$PROJECT_DIR$/../../armon/go-metrics/.git" />
-      <root url="file://$PROJECT_DIR$/../../stretchr/testify/_codegen" />
-      <root url="file://$PROJECT_DIR$/../../imdario/mergo/.git" />
-      <root url="file://$PROJECT_DIR$/../../Sirupsen/logrus/.git" />
-      <root url="file://$PROJECT_DIR$/../../imdario/mergo/testdata" />
-      <root url="file://$PROJECT_DIR$/../go-util/.git" />
-      <root url="file://$PROJECT_DIR$/../../rubenv/sql-migrate/.git" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/spf13/cast/.git" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/spf13/jwalterweatherman/.git" />
+      <root url="file://$PROJECT_DIR$/.git" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/stretchr/testify/.git" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/lib/pq/.git" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/hoisie/mustache/.git" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/armon/go-metrics/.git" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/stretchr/testify/_codegen" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/imdario/mergo/.git" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/Sirupsen/logrus/.git" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/imdario/mergo/testdata" />
       <root url="file://$PROJECT_DIR$/../go-util/.idea" />
-      <root url="file://$PROJECT_DIR$/../../kunteynir/tradingview/.git" />
-      <root url="file://$PROJECT_DIR$/../../julienschmidt/httprouter/.git" />
+      <root url="file://$PROJECT_DIR$/../go-util/.git" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/rubenv/sql-migrate/.git" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/kunteynir/tradingview/.git" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/julienschmidt/httprouter/.git" />
       <root url="file://$PROJECT_DIR$/../../../pine_repo/.git" />
+      <root url="file://$PROJECT_DIR$/../../../github.com/kardianos/govendor/.git" />
+      <root url="file://$PROJECT_DIR$/.idea" />
+      <root url="file://$PROJECT_DIR$/../ya-go-config/.git" />
     </excluded>
   </library>
 </component>

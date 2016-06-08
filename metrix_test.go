@@ -5,8 +5,10 @@ import (
 	"os"
 	"testing"
 	"time"
-
+	"xgit.tradingview.com/go-lib/go-util"
 	"github.com/stretchr/testify/assert"
+	"strings"
+	"fmt"
 )
 
 func TestMetrix1(t *testing.T) {
@@ -21,10 +23,28 @@ func TestMetrix1(t *testing.T) {
 	SetMetrixValue("metric2", 200)
 	AddMetrixValue("metric1", 5)
 
+	MetrixInstance.setCalcValue("metric3", func(input CalcFuncInput) int64 {
+		return input.Values["metric1"] + input.Values["metric2"]
+	})
+
 	time.Sleep(time.Second)
 
 	data, err := ioutil.ReadFile(fileName)
 	assert.NoError(t, err)
 
-	assert.True(t, "metric1 = 15\nmetric2 = 200\n" == string(data[:]) || "metric2 = 200\nmetric1 = 15\n" == string(data[:]) )
+	dataStr := string(data)
+	lines := strings.Split(dataStr, "\n")
+	fmt.Println(lines)
+
+	assert.True(t, util.FindIndex(len(lines), func(i int) bool {
+		return lines[i] == "metric1 = 15"
+	}) >= 0)
+
+	assert.True(t, util.FindIndex(len(lines), func(i int) bool {
+		return lines[i] == "metric2 = 200"
+	}) >= 0)
+
+	assert.True(t, util.FindIndex(len(lines), func(i int) bool {
+		return lines[i] == "metric3 = 215"
+	}) >= 0)
 }
