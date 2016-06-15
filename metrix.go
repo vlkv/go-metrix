@@ -61,7 +61,7 @@ func CreateMetrix(file string, flushInterval time.Duration) Metrix {
 	this.values = make(map[string]int64)
 	this.calcFuns = make(map[string]CalcFunc)
 	this.prevValues = make(map[string]int64)
-	this.ActiveObject.Create2(nil, 10000)
+	this.ActiveObject.Create1(10000)
 	this.runTimer(flushInterval)
 	return this
 }
